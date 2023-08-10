@@ -1,0 +1,123 @@
+body {
+    background-image: url("../images/bg1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Login Form and register */
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+.nav-link:hover {
+    color: rgb(28, 49, 77);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li {
+    margin: 10px;
+    color: white;
+}
+.login-form, .register-form {
+    background-color: rgba(250, 250, 250, 0.415);
+    width: 30vw;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-top: 150px;
+}
+.login-form h2, .register-form h2 {
+    margin-bottom: 50px;
+}
+.login-form form, .register-form form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.login-form form input, .register-form form input {
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 20px;
+}
+.login-form form button, .register-form form button {
+    background-color: rgb(60, 104, 163);
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 30px;
+    margin: 30px;
+    border-radius: 10px;
+}
+.login-form form button:hover,  .register-form form button:hover{
+    background-color: rgb(28, 49, 77);
+}
+/* admin panel */
+.panel {
+    background-color: rgba(250, 250, 250, 0.415);
+    width: 60vw;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.panel {
+    color: #fff;
+}
+.table {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.table thead tr {
+    background-color: rgb(28, 49, 77);
+    height: 30px;
+    color: #fff;
+    border-radius: 10px;
+}
+/* toolbar */
+.toolbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.toolbar i {
+    margin: 10px;
+}
+.toolbar i:hover {
+    color: rgb(28, 49, 77);
+}
+.toolbar button {
+    background-color: rgb(167, 1, 1);
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.toolbar button:hover {
+    background-color: rgb(97, 0, 0);
+}
