@@ -1,6 +1,6 @@
 export async function blockUsers(selectedUserIds) {
     try {
-        const response = await fetch('http://localhost:5000/api/users/block-users', {
+        const response = await fetch('https://backend-adminpanel.onrender.com/api/users/block-users', {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json',
@@ -19,7 +19,7 @@ export async function blockUsers(selectedUserIds) {
 
 export async function unblockUsers(selectedUserIds) {
     try {
-        const response = await fetch('http://localhost:5000/api/users/unblock-users', {
+        const response = await fetch('https://backend-adminpanel.onrender.com/api/users/unblock-users', {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json',
@@ -38,7 +38,7 @@ export async function unblockUsers(selectedUserIds) {
 
 export async function deleteUsers(selectedUserIds) {
     try {
-        const response = await fetch('http://localhost:5000/api/users/delete-users', {
+        const response = await fetch('https://backend-adminpanel.onrender.com/api/users/delete-users', {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json',
