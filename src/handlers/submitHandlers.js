@@ -1,7 +1,7 @@
 // Submit function for Login page
 export async function logSubmitting(e, navigate, setCurrentUser, setError, username, password) {
   try {
-    const response = await fetch('http://localhost:5000/login', {
+    const response = await fetch('https://backend-adminpanel.onrender.com/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -27,7 +27,7 @@ export async function logSubmitting(e, navigate, setCurrentUser, setError, usern
 export async function registerSubmitting(e, setError, navigate, username, email, password) {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:5000/register', {
+      const response = await fetch('https://backend-adminpanel.onrender.com/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
